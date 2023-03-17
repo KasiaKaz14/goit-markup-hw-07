@@ -19,7 +19,7 @@
   text-align: center;
 }
 
-.list-item {
+.clients__list-item {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -55,4 +55,12 @@
 .clients__icons:hover,
 .clients__icons:focus {
   fill: var(--secondary-font-color);
+}
+
+.client {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
 }

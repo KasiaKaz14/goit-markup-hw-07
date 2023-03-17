@@ -18,8 +18,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link href="./css/styles.css" rel="stylesheet" />
-    <link href="./css/main.css" rel="stylesheet" />
+    <!--<link href="./css/styles.css" rel="stylesheet" ?> -->
+    <link href="./css/main.min.css" rel="stylesheet" />
     
   </head>
   <body>
@@ -30,29 +30,29 @@
           ><span class="main-logo part-two-logo">Studio</span></a
         >
         <nav>
-          <ul class="nav-list">
-            <li class="list-item">
-              <a class="links nav-list__pages active" href="./index.html">Agencja</a>
+          <ul class="nav">
+            <li class="nav__list">
+              <a class="links nav__pages active" href="./index.html">Agencja</a>
             </li>
-            <li class="list-item">
-              <a class="links nav-list__pages" href="./portfolio.html">Portfolio</a>
+            <li class="nav__list">
+              <a class="links nav__pages" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="list-item">
-              <a class="links nav-list__pages" href="#">Kontakt</a>
+            <li class="nav__list">
+              <a class="links nav__pages" href="#">Kontakt</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contact">
-          <li class="list-item">
-            <a class="links header-contact__contacts" href="mailto:info@devstudio.com"
-              ><svg class="icons-display" width="16" height="12">
+        <ul class="contact">
+          <li class="contact__list">
+            <a class="links contact__contacts" href="mailto:info@devstudio.com"
+              ><svg class="contact__icons-display" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="list-item">
-            <a class="links header-contact__contacts" href="tel:+48111111111"
-              ><svg class="icons-display" width="12" height="16">
+          <li class="contact__list">
+            <a class="links contact__contacts" href="tel:+48111111111"
+              ><svg class="contact__icons-display" width="12" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use></svg
               >+48 111 111 111</a
             >
@@ -61,10 +61,10 @@
       </div>
     </header>
     <main>
-      <section class="main-section">
+      <section class="main">
         <div class="container">
-          <h1 class="main-section__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="main-button button-text" type="button" data-modal-open>
+          <h1 class="main__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button class="main__button main__button-text" type="button" data-modal-open>
             Zamów usługę
           </button>
         </div>
@@ -72,7 +72,7 @@
       <section class="features">
         <div class="container">
           <ul class="features__list">
-            <li class="list-item">
+            <li class="features__item">
               <div class="features__icon">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
@@ -84,7 +84,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="list-item">
+            <li class="features__item">
               <div class="features__icon">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-clock-1"></use>
@@ -96,7 +96,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="list-item">
+            <li class="features__item">
               <div class="features__icon">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
@@ -108,7 +108,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="list-item">
+            <li class="features__item">
               <div class="features__icon">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
@@ -123,11 +123,11 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="service">
         <div class="container">
-          <h2 class="title">Czym się zajmujemy</h2>
+          <h2 class="service__title">Czym się zajmujemy</h2>
           <ul class="section-two">
-            <li class="list-item">
+            <li class="service__item">
               <div class="service__container">
               <img
                 src="./images/programming1.jpg"
@@ -138,7 +138,7 @@
               
             </li>
 
-            <li class="list-item">
+            <li class="service__item">
                 <div class="service__container">
               <img
                 src="./images/programming2.jpg"
@@ -148,7 +148,7 @@
                <p class="service__text">aplikacje mobilne</p></div>
             </li>
 
-            <li class="list-item">
+            <li class="service__item">
               <div class="service__container">
               <img
                 src="./images/programming3.jpg"
@@ -164,7 +164,7 @@
         <div class="container">
           <h2 class="title">Nasz zespół</h2>
           <ul class="section-two">
-            <li class="team__item list-item">
+            <li class="team__item team__list-item">
               <img
                 src="./images/programista1.jpg"
                 alt="zdjęcie product designera"
@@ -175,7 +175,7 @@
 
                 <p class="team__profession">Product Designer</p>
 
-                <ul class="list-item team__icons">
+                <ul class="team__list-item team__icons">
                   <li>
                     <a class="team__link-svg" href="#">
                       <svg width="20" height="20" fill: currentColor;>
@@ -209,7 +209,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item list-item">
+            <li class="team__item team__list-item">
               <img
                 src="./images/programista2.jpg"
                 alt="zdjęcie frontend developera"
@@ -218,7 +218,7 @@
               <div class="team__image-infos">
                 <h3 class="team__members">John Doe</h3>
                 <p class="team__profession">Frontend Developer</p>
-                <ul class="list-item team__icons">
+                <ul class="team__list-item team__icons">
                   <li>
                     <a class="team__link-svg" href="#">
                       <svg width="20" height="20" fill: currentColor;>
@@ -254,7 +254,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item list-item">
+            <li class="team__item team__list-item">
               <img
                 src="./images/programista3.jpg"
                 alt="zdjęcie marketingowca"
@@ -263,7 +263,7 @@
               <div class="team__image-infos">
                 <h3 class="team__members">John Doe</h3>
                 <p class="team__profession">Marketing</p>
-                <ul class="list-item team__icons">
+                <ul class="team__list-item team__icons">
                   <li>
                     <a class="team__link-svg" href="#">
                       <svg width="20" height="20" fill: currentColor;>
@@ -299,7 +299,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item list-item">
+            <li class="team__item team__list-item">
               <img
                 src="./images/programista4.jpg"
                 alt="zdjęcie UI designera"
@@ -308,7 +308,7 @@
               <div class="team__image-infos">
                 <h3 class="team__members">John Doe</h3>
                 <p class="team__profession">UI Designer</p>
-                <ul class="list-item team__icons">
+                <ul class="team__list-item team__icons">
                   <li>
                     <a class="team__link-svg" href="#">
                       <svg width="20" height="20" fill: currentColor;>
@@ -349,7 +349,7 @@
       <section class="section">
         <div class="container">
           <h2 class="title">Nasi klienci</h2>
-          <ul class="list-item clients">
+          <ul class="clients__list-item clients">
             <li>
               <a class="clients__links" href="#"
                 ><svg
@@ -427,22 +427,22 @@
             >Web<span class="footer__part-logo">Studio</span></a
           >
           <address>
-            <ul class="footer-address">
-              <li class="footer-address__item">
+            <ul class="footer__address">
+              <li class="footer__address-item">
                 <a
-                  class="links digits"
+                  class="links foooter__digits"
                   href="https://goo.gl/maps/2fAuvZjree4Hr7bS9"
                   target="_blank"
                   rel="noopener nofollow"
                   >m. Warszawa, al. Jerozolimskie21</a
                 >
               </li>
-              <li class="footer-address__item">
+              <li class="footer__address-item">
                 <a class="links footer__contact" href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </li>
-              <li class="footer-address__item">
+              <li class="footer__address-item">
                 <a class="links footer__contact" href="tel:+48111111111"
                   >+48 111 111 111</a
                 >
@@ -450,11 +450,11 @@
             </ul>
           </address>
         </div>
-        <div class="footer-social">
-          <p class="footer-social__join">Dołącz do nas</p>
-          <ul class="list-item footer-social__list">
+        <div class="footer__social">
+          <p class="footer__social-join">Dołącz do nas</p>
+          <ul class="footer__list-item footer__social-list">
             <li>
-              <a class="footer-social__item" href="#"
+              <a class="footer__social-item" href="#"
                 ><svg
                 
                   width="20"
@@ -464,20 +464,20 @@
               ></a>
             </li>
             <li>
-              <a class="footer-social__item" href="#"
+              <a class="footer__social-item" href="#"
                 ><svg  width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter-1"></use>
              </a>
             </li>
             <li>
-              <a class="footer-social__item" href="#"
+              <a class="footer__social-item" href="#"
                 ><svg  width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook-1"></use>
                 </svg
               ></a>
             </li>
             <li>
-              <a class="footer-social__item" href="#"
+              <a class="footer__social-item" href="#"
                 ><svg  width="20" height="20"
                   ><use href="./images/icons.svg#icon-linkedin-1"></use>
                </svg
@@ -485,11 +485,11 @@
             </li>
           </ul>
         </div>
-        <form class="form-class" name="newsletter_signup" autocomplete="on">             
-          <label class="newsletter" for="email" class="newsletter">Zapisz się do newslettera</label> 
-          <div class="form"> 
-          <input class="input-class" type="email" name="email" id="email" placeholder="E-mail"/>
-        <button class="sign-in-button form-text-btn" type="submit">Zapisz się<svg class="sign-svg" width="24" height="24" class="footer-icon"><use href="./images/icons.svg#icon-footer-icon-send"></use></svg></button>
+        <form class="form" name="newsletter_signup" autocomplete="on">             
+          <label class="form__newsletter" for="email" >Zapisz się do newslettera</label> 
+          <div class="form__container"> 
+          <input class="form__input" type="email" name="email" id="email" placeholder="E-mail"/>
+        <button class="form__sign-button form__text-btn" type="submit">Zapisz się<svg class="form__sign-svg" width="24" height="24" class="footer-icon"><use href="./images/icons.svg#icon-footer-icon-send"></use></svg></button>
       </div>
       </form>
       </div>       

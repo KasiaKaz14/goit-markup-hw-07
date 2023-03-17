@@ -1,4 +1,4 @@
-.section {
+.service {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -9,7 +9,7 @@
   padding: 0 15px;
 }
 
-.title {
+.service__title {
   color: var(--main-text-color, #212121);
   font-weight: 700;
   font-size: 36px;
@@ -19,18 +19,18 @@
   text-align: center;
 }
 
+.service__item {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 .section-two {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   margin: 0;
   padding: 0;
-}
-
-.list-item {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
 .service__container {
